@@ -1,0 +1,106 @@
+.recent {
+    padding: 80px;
+    position: relative;
+}
+
+.recent .heading {
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+
+.heading h1 {
+    color: #2d3954;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.heading p {
+    color: #72809d;
+}
+
+.shadow {
+    box-shadow: 0 0 20px 0 rgba(112, 121, 138, .18);
+}
+
+.container .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+img {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.btn2 {
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #0eb668;
+}
+
+.recent .text {
+    padding: 25px;
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.recent .category span {
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recent .category i {
+    font-size: 20px;
+    color: #bec7d8;
+}
+
+.recent p {
+    color: #72809d;
+}
+
+.recent .button {
+    border-top: 1px solid #efe8f3;
+    padding: 5px 18px;
+}
+
+.container .content .box .flex {
+    background-color: rgba(255, 255, 255, 0.15);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .container .grid3 {
+        display: block;
+    }
+
+    .container .content .btn2 {
+        font-size: 13px;
+    }
+
+    .container .content .box {
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .container .grid3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

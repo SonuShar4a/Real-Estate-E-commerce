@@ -1,0 +1,147 @@
+.about {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.back {
+    height: 40vh;
+    position: relative;
+}
+
+.back .containers {
+    padding: 120px 0px;
+    color: white;
+    position: relative;
+    background: #082551;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.back .containers {
+    display: block;
+}
+
+.pleft {
+    padding-left: 10rem;
+}
+
+.back h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.back img {
+    height: 20rem;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+.back img {
+    object-fit: cover;
+}
+
+/* .imgs{
+    left: 0px;
+    position:  absolute;
+    top: 0px;
+    height: 18rem;
+    z-index: -1; 
+ } */
+
+.flex {
+    display: flex;
+}
+
+.left {
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.right {
+    width: 100%;
+
+}
+
+#aboutbtn {
+    background: #27ae60;
+    ;
+    width: 10rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+.left p {
+    font-weight: 400;
+}
+
+@media (min-width: 0px) and (max-width: 280px) {
+    .pleft {
+        padding-left: 2rem;
+    }
+
+    .back .containers {
+        padding: 72px 0px;
+    }
+}
+
+@media (min-width: 0px) and (max-width:340px) {
+    .left {
+        padding-right: 0rem;
+
+    }
+
+    .left p {
+        font-size: 0.6rem;
+    }
+
+    .container .right img {
+        height: 14rem;
+    }
+
+    .about .container {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .about .container .left {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 453px) {
+    .pleft {
+        padding-left: 2rem;
+    }
+
+    .back .containers {
+        padding: 96px 0px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
+    .pleft {
+        padding-left: 2rem;
+    }
+}
+
+@media (min-width: 340px) and (max-width: 991px) {
+
+    /* .pleft {
+        padding-left: 2rem;
+    } */
+    .container .right img {
+        height: 27rem;
+    }
+
+    .about .container {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .about .container .left {
+        margin-bottom: 3rem;
+    }
+
+}

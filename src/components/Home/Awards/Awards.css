@@ -1,0 +1,79 @@
+.awards {
+    background: #122947;
+    color: white;
+    text-align: center;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 80%;
+}
+
+.awards .heading {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.heading {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.awards .heading h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.awards .heading p {
+    color: #27ae60;
+}
+
+.grid4 {
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.mtop {
+    margin-top: 50px;
+}
+
+.awards .icon {
+    background: hsla(0, 0%, 100%, .1);
+    width: 100px;
+    height: 100px;
+    margin: 50px auto auto;
+    font-size: 32px;
+    line-height: 100px;
+    color: white;
+    border-radius: 4% 50%;
+
+}
+
+.awards h1 {
+    font-size: 50px;
+}
+
+.awards p {
+    font-size: 30px;
+    color: grey;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .awards .cotainer .grid4 {
+        display: block;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .awards .cotainer .grid4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

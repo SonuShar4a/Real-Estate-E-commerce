@@ -1,0 +1,56 @@
+ .blog .content {
+   margin: 80px;
+ }
+ .blog {
+  padding-top: 7rem;
+}
+
+ .blog .content .box .text {
+   margin: 17px;
+ }
+
+ .blog .content .box .button {
+   margin: 1.5rem
+ }
+
+ .blog .content :hover {
+   transform: translateX(35px);
+ }
+
+ .blog .content .box :hover {
+   transform: translateY(0px);
+ }
+
+
+ @media (min-width: 280px) and (max-width: 453px) {
+   .pleft {
+     padding-left: 2rem;
+   }
+
+   .blog .back .containers {
+     padding: 96px 0px;
+   }
+ }
+
+ @media (min-width: 0px) and (max-width: 600px) {
+   .blog .content {
+     display: block;
+   }
+
+   .blog .content .btn2 {
+     font-size: 13px;
+   }
+
+   .blog .content .box {
+     margin-bottom: 3rem;
+   }
+
+ }
+
+ @media (min-width: 600px) and (max-width: 1000px) {
+   .blog .content {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+   }
+
+ }

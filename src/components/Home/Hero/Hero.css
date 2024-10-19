@@ -1,0 +1,168 @@
+#hero h1 {
+    color: white;
+    font-size: 65px;
+}
+
+#hero p {
+    color: white;
+    opacity: .8;
+}
+
+#hero {
+    background-image: url("./images/banner.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+/* Container */
+#hero .container {
+    padding-top: 15%;
+}
+
+.container {
+    margin: auto;
+    max-width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero .container {
+        padding-top: 30%;
+    }
+}
+
+/* Heading */
+@media screen and (max-width: 800px) {
+    .heading {
+        width: 100%;
+    }
+}
+
+.heading {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.heading h1 {
+    color: #2d3954;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Form */
+.container .flex {
+    background-color: rgba(255, 255, 255, 0.15);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+form {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+    form .box {
+        border-left: none;
+    }
+}
+
+form .box {
+    border-left: 1px solid hsla(0, 0%, 50%, .2);
+    padding: 15px;
+}
+
+form .box:first-child {
+    border-left: none;
+}
+
+form span {
+    color: white;
+    font-size: 14px;
+}
+
+.af {
+    font-weight: bold;
+}
+
+
+form input {
+    border-left: 1px solid #00ff87;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+input,
+textarea {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 8ch;
+    outline: none;
+}
+
+.box input,
+::placeholder {
+    color: white !important;
+}
+
+#button {
+    color: white;
+    border-radius: 1rem;
+    background-color: #0cec83;
+}
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+    #hero h1 {
+        color: white;
+        font-size: 25px;
+    }
+
+    #hero .container {
+        padding-top: 4%;
+    }
+
+    .container .flex {
+        display: block;
+        margin-top: 0rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    #hero h1 {
+        color: white;
+        font-size: 50px;
+    }
+
+    #hero .container {
+        padding-top: 4%;
+    }
+
+    .container .flex {
+        display: block;
+    }
+}
+
+@media (min-width: 800px) {
+    .container .flex {
+        display: flex;
+    }
+}

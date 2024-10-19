@@ -1,0 +1,60 @@
+#nav {
+    padding: 1.5rem;
+}
+
+#logo {
+    padding-left: 5rem;
+    width: 233px;
+    height: 60px;
+}
+
+#nav{
+    position: fixed;
+    background: white;
+    z-index: 22;
+    width: 100%;
+}
+#hover:hover {
+
+    color: #0cec83;
+}
+
+#hover {
+    font-weight: bold;
+}
+
+#toggler {
+    background-color: #0cec83;
+}
+
+#navbarSupportedContent {
+    padding-left: 2rem;
+}
+
+.SingIn {
+    padding-right: 5rem;
+}
+
+
+.navbar .container-fluid .collapse .SingIn .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .container-fluid .collapse ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .container-fluid .collapse ul li a:hover {
+    color: #00ff2f;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+    #logo {
+        padding-left: 0rem;
+        width: 100px;
+        height: 40px;
+    }
+
+}

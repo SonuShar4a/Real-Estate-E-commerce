@@ -1,0 +1,103 @@
+.pricing .content {
+    text-align: center;
+}
+.pricing {
+    padding-top: 7rem;
+  }
+
+.pricing .flex {
+    margin: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricing .content .box {
+    border-radius: 10px;
+    padding: 30px;
+    width: 31.5%;
+}
+
+.pricing .content .box ul li {
+    /* display: flex; */
+    align-items: baseline;
+}
+
+.pricing .content .box:nth-child(1) .topbtn button,
+.pricing .content .box:nth-child(3) .topbtn button {
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 430px) {
+
+    .pricing .content .box ul,
+    li {
+        padding-left: 0rem;
+    }
+
+    .pricing h1 {
+        font-size: 45px;
+    }
+
+    .pricing .btn5 {
+        margin: 0px;
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .pricing .content {
+        flex-direction: column;
+    }
+
+    .pricing .content .box {
+        width: 100%;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 750px) {
+    .pleft {
+        padding-left: 2rem;
+    }
+
+    .pricing .back .containers {
+        padding: 120px 0px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 620px) {
+    .pleft {
+        padding-left: 2rem;
+    }
+
+    .pricing .back .containers {
+        padding: 96px 0px;
+    }
+}
+
+@media (min-width: 389px) and (max-width: 420px) {
+    .pleft {
+        padding-left: 2rem;
+    }
+
+    .pricing .back .containers {
+        padding: 90px 0px;
+        /* font-size: 0.rem; */
+    }
+}
+
+@media (min-width: 0px) and (max-width: 362px) {
+    .pleft {
+        padding-left: 2rem;
+    }
+
+    .pricing .back .containers {
+        padding: 63px 0px;
+        /* font-size: 0.rem; */
+    }
+}
